@@ -1,6 +1,7 @@
 import Card from "@/Components/Card/Card";
 import { ContactForm } from "@/Components/ContactForm/ContactForm";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,11 +20,14 @@ export default function Home() {
           <p className="mt-5 text-center text-lg text-white opacity-90">
             Technology partner for businesses
           </p>
-          <button className="relative inline-flex items-center justify-center p-0.5 my-5 mr-2 overflow-hidden text-xl font-medium rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white text-white focus:ring-4 focus:outline-none focus:ring-green-800">
+          <Link
+            href="/contact"
+            className="relative inline-flex items-center justify-center p-0.5 my-5 mr-2 overflow-hidden text-xl font-medium rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white text-white focus:ring-4 focus:outline-none focus:ring-green-800"
+          >
             <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0">
               Get Started
             </span>
-          </button>
+          </Link>
         </div>
       </div>
       <section className="flex space-between flex-col md:flex-row">
