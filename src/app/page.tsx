@@ -10,7 +10,6 @@ export default function Home() {
           src={"/hero.jpeg"}
           alt="Hero Image"
           className="opacity-60"
-          objectFit="cover"
           fill
         />
         <div className="flex flex-col justify-center items-center px-3 py-48 md:py-80">
