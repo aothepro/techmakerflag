@@ -32,28 +32,31 @@ export default function Home() {
       </div>
       <section className="flex space-between flex-col md:flex-row">
         <Card
-          className="my-5 mx-5"
+          className="my-5 mx-5 py-2"
           title="Website"
           body={
-            "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
+            "Experience the power of a captivating online presence with our top-tier website development service, combining sleek design, seamless functionality, and optimized performance to leave a lasting impression on your audience"
           }
-          buttonText={""}
+          buttonText={"Learn more"}
+          href={"/contact"}
         />
         <Card
-          className="my-5 mx-5"
+          className="my-5 mx-5 py-2"
           title="Mobile Apps"
           body={
-            "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
+            "Transform your vision into a reality with our cutting-edge mobile app development service, delivering customized solutions that engage users, boost brand presence, and exceed your business objectives."
           }
-          buttonText={""}
+          buttonText={"Learn more"}
+          href={"/contact"}
         />
         <Card
-          className="my-5 mx-5"
+          className="my-5 mx-5 py-2"
           title="Hardware"
           body={
-            "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
+            "Unleash innovation with our comprehensive hardware development service, guiding you from concept to realization, delivering high-quality and scalable solutions that redefine industry standards."
           }
-          buttonText={""}
+          buttonText={"Learn more"}
+          href={"/contact"}
         />
       </section>
       {/* Gradient */}
